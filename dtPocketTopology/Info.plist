@@ -41,5 +41,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>DTXAgentEnvironment</key>
+	<string>bf10929vyl</string>
+	<key>DTXApplicationID</key>
+	<string>5f7d54ab-1abc-4694-ac55-b2ead393f98c</string>
+	<key>DTXClusterURL</key>
+	<string>https://bf.dynatrace.com</string>
 </dict>
 </plist>
