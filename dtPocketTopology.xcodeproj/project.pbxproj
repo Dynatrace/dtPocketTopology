@@ -60,7 +60,7 @@
 		4B7C5BA3DFF5A588D8EFE9CE /* Pods_dtPocketTopology.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dtPocketTopology.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E6B35037E998F39A292553C /* Pods-dtPocketTopology.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dtPocketTopology.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dtPocketTopology/Pods-dtPocketTopology.debug.xcconfig"; sourceTree = "<group>"; };
 		F01514A88628291D3D80AEFC /* Pods-dtPocketTopology.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dtPocketTopology.release.xcconfig"; path = "Pods/Target Support Files/Pods-dtPocketTopology/Pods-dtPocketTopology.release.xcconfig"; sourceTree = "<group>"; };
-		F4172A04204F3B8200C5AC92 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		F4172A04204F3B8200C5AC92 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = Readme.md; path = ../Readme.md; sourceTree = "<group>"; };
 		F4172A07204F496E00C5AC92 /* Hosts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hosts.png; sourceTree = "<group>"; };
 		F4172A08204F496E00C5AC92 /* Menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Menu.png; sourceTree = "<group>"; };
 		F4172A09204F496E00C5AC92 /* Tags.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tags.png; sourceTree = "<group>"; };
@@ -153,7 +153,8 @@
 				F4172A0D204F496F00C5AC92 /* IPs.png */,
 				F4172A0F204F496F00C5AC92 /* Login.png */,
 			);
-			path = Screenshots;
+			name = Screenshots;
+			path = ../Screenshots;
 			sourceTree = "<group>";
 		};
 		F4615A07201FA0BE0042C096 = {
@@ -322,7 +323,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Hocker, Lucas";
 				TargetAttributes = {
 					F4615A0F201FA0BE0042C096 = {
@@ -509,6 +510,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -516,6 +518,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -566,6 +569,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -573,6 +577,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
